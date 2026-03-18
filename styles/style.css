@@ -5,4 +5,27 @@
   font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
   line-height: 1.3;
+  background-attachment: fixed;
+  /* background: #000028; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+color: #DB00FF;
+}
+
+.header__heading {
+font-weight: 700;
+font-size: 157px;
+
+text-shadow: 4px 4px #FF0070;
+/* line-height: 83%; */
+
+}
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
 }
