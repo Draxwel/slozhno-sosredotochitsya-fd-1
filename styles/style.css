@@ -13,14 +13,14 @@
 }
 
 .heading {
-color: #DB00FF;
+color: var(--heading-color);
 }
 
 .header__heading {
 font-weight: 700;
 font-size: 157px;
 
-text-shadow: 4px 4px #FF0070;
+text-shadow: 4px 4px var(--shadow-color);
 /* line-height: 83%; */
 
 }
